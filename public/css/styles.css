@@ -1,0 +1,151 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #f5f5f5;
+}
+
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+}
+.form-signin .checkbox {
+    font-weight: 400;
+}
+.form-signin .form-control {
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+}
+.form-signin .form-control:focus {
+    z-index: 2;
+}
+.top {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.middle {
+    margin-bottom: -1px;
+    border-radius: 0;
+}
+
+.bottom {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+
+
+/*@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');*/
+
+/** {*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    box-sizing: border-box;*/
+
+/*}*/
+
+/*body {*/
+/*    background-image: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("img/mathyas-kurmann-fb7yNPbT0l8-unsplash.jpg");*/
+/*    background-size: cover;*/
+/*    height: 100vh;*/
+/*    !*width: 100%;*!*/
+/*    font-family: 'Montserrat', sans-serif;*/
+/*    !*text-align: center;*!*/
+/*    color: white;*/
+/*    font-size: 62.5%;*/
+/*    font-weight: 400;*/
+
+/*}*/
+
+/*h1, p {text-align: center}*/
+
+/*h1 {*/
+/*    font-size: 4rem;*/
+/*    font-weight: 300;*/
+/*    margin-bottom: 1rem;*/
+/*}*/
+
+/*p {*/
+/*    font-size: 1.5rem;*/
+/*    margin-bottom: 1rem;*/
+/*    line-height: 1.5;*/
+/*}*/
+
+/*main {*/
+/*    width: 25%;*/
+/*    margin: 10% auto 0;*/
+/*}*/
+
+/*label {*/
+/*    text-align: left;*/
+/*    font-size: 1.2rem;*/
+/*    font-weight: 700;*/
+/*}*/
+
+/*input {*/
+/*    border: none;*/
+/*    border-radius: 3px;*/
+/*    margin-top: .5rem;*/
+/*    margin-bottom: 1rem;*/
+/*    width: 100%;*/
+/*    padding: .5rem;*/
+/*}*/
+
+/*button {*/
+/*    margin: 15% 27.5% 0;*/
+/*    font-size: 2rem;*/
+/*    color: #333;*/
+/*    border: 1px solid #fff;*/
+/*    border-radius: 3rem;*/
+/*    display: inline-block;*/
+/*    padding: .1rem 3rem;*/
+/*    transition: all .2s;*/
+/*    text-transform: uppercase;*/
+/*}*/
+
+/*button:hover {*/
+/*    transform: translateY(-.3rem);*/
+/*    box-shadow: 0 1rem 2rem rgba(255, 255, 255, .2);*/
+/*}*/
+
+/*button:active {*/
+/*    transform: translateY(-.1rem);*/
+/*    box-shadow: 0 .5rem 1rem rgba(255, 255, 255, .2);*/
+/*}*/
+
+/*footer {*/
+/*    font-size: 1rem;*/
+/*    text-align: center;*/
+/*    margin-top: 2%;*/
+/*}*/
